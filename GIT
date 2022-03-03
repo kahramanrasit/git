@@ -83,6 +83,7 @@ GİRİŞ
 		****NOT****: Branchleri silersek merge edilmiş halleri kalıyor git log adog'taki senaryo gitmiyor sadece branchleri siliyor. Önemli bir detay sakı proje bitiminde master branch'e merge etmeyi unutma.
 		
 		
+
 	*Merge Türleri
 	
 		-->Fast Forward Merge; Masterde commit atılmayacak adam diğer branchteki commitler master branch'e merge yapılırsa F.F.M olur. Head pointer sadece ileri taşınır ve 2 branch'te aynı commit'i işaret ettiğinden HEAD(master,branch) olur. git log adog komutunda da lineer bir şekilde senaryo oluşur. ****ELEKTRİK AKIMI GİBİ DÜŞÜN TEK YOL İZLEYECEK!!! ayrıca git log adog'ta merge yaptığı yazmıyor kendimiz isimlendirme yaparak görebiliriz!!!****
